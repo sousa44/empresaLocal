@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* variaveis*/
+
+:root {
+    --btn-customBg: linear-gradient(135deg, #6dd5fa, #1e3c72);
+    --transiton: all 0.25s ease;
+    --subtitleColor: #191970
+}
+
+/*classes genericas */
+.btn-custom {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: var(--btn-customBg);
+    color: #fff !important;
+    font-weight: bolder;
+    box-shadow: 2px 5px 10px -1px #1c1c1c89
+}
+
+
+
+/*hero-main */
+
+#main {
+    color: #363636;
+}
+
+#hero-main__nav {
+    padding: 20px;
+    box-shadow: 2px 5px 10px #7d7d93;
+}
+
+#hero-main__nav ul {
+    margin-right: 3rem;
+
+}
+
+#hero-main__nav ul li {
+    margin-left: 1.5rem;
+}
+
+#hero-main__nav ul li a {
+    color: #1C1C1C;
+    transition: var(--transiton);
+}
+
+#hero-main__nav ul li a:hover {
+    color: #4169E1;
+    transform: scale(1.1);
+}
+
+
+
+.navbar-brand {
+    color: #4169E1;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.hero-main__contentContainer {
+    background-color: #F8F8FF;
+}
+
+
+.hero-main__content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.hero-main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+    margin-top: 3.5rem;
+
+}
+
+.hero-main__text h1 {
+    color: #191970;
+}
+
+.titleSpan {
+    color: #4169E1;
+
+}
+
+#btnSaibaMais {
+    width: 200px;
+    transition: var(--transiton);
+}
+
+#btnSaibaMais:hover {
+    background: linear-gradient(135deg, #4facfe, #003366);
+    transform: scale(1.1);
+
+}
+
+
+/* ---------------------------------------------------------*/
+
+/*sobrenos */
+
+#sobreNos {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.sobreNosContainer {
+    padding-bottom: 20px;
+}
+
+.sobrenosText h2 {
+    font-size: 1.6rem;
+    color: var(--subtitleColor);
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+.sobrenosText {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+
+}
+
+#btnLeiaMais {
+    margin-top: 2rem;
+    width: 200px;
+    transition: var(--transiton);
+}
+
+#btnLeiaMais:hover {
+    background: linear-gradient(135deg, #4facfe, #003366);
+    transform: scale(1.1);
+}
+
+.sobrenosImg {
+    width: 50%;
+}
+
+.sobrenosImg img {
+    border-radius: 10px;
+}
+
+/* -------------------------------------------*/
+
+/* nossosServicos*/
+
+#nossosServicos {
+    padding-bottom: 20px;
+}
+
+
+.nossosServicos__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    gap: 20px;
+    margin-top: 2rem;
+
+
+}
+
+
+
+#nossosServicos article img {
+    width: 100px;
+}
+
+#nossosServicos article {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 5px 2px 10px #F0F8FF;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    transition: var(--transiton);
+
+}
+
+
+
+#nossosServicos article:hover {
+    background-color: #F5F5F5;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#nossosServicos article h5 {
+    color: #4169E1;
+    font-weight: bolder;
+}
+
+#nossosServicos article p {
+    flex-grow: 1;
+}
+
+
+#nossosServicos h3 {
+    color: var(--subtitleColor);
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+/*--------------------------------------------------------------- */
+
+/* footer*/
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+.footer__localizacao h5 {
+    color: var(--subtitleColor);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.address__bold {
+    color: #191970;
+    font-weight: bolder;
+}
+
+.address__items p {
+    padding: 10px;
+
+}
+
+.footer__text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    background: linear-gradient(135deg, #0b273f, #003366);
+    padding: 20px;
+    color: #fff;
+}
+
+.footer__textIcones a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #dcdc;
+    border-radius: 10px;
+    transition: var(--transiton);
+
+}
+
+
+.footer__text a:hover {
+    background-color: #ccc;
+
+}
+
+
+.footer__textIcones i {
+    color: #ffff;
+}

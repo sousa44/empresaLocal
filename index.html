@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Local</title>
+
+    <!--font awesome 5-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--normalize css-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--media queries-->
+    <link rel="stylesheet" href="css/mediaQueries.css">
+
+    <!--bootrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <header id="hero-main"> <!--hero-main-->
+        <nav class="navbar navbar-expand-lg" id="hero-main__nav"> <!--hero-main__nav-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="brand">empresa </span>local</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Localização</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-custom" href="#">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--hero-main__nav-->
+
+        <div class="hero-main__contentContainer"> <!--hero-main__content-->
+
+            <div class="hero-main__content  container"> <!--hero-main__content-->
+
+                <div class="hero-main__text">
+                    <h1>
+                        Bem-vindo à <br>
+                        <span class="titleSpan">Empresa Local</span>
+                    </h1>
+
+                    <p>Soluções para o seu negócio,perto de você.</p>
+
+                    <button id="btnSaibaMais" class="btn-custom">Saiba mais</button>
+                </div>
+
+                <div class="hero-main__img">
+                    <img src="assets/imagemPrincipal-removebg-preview.png" class="img-fluid"
+                        alt="empresários se cumprimentando">
+                </div>
+
+
+            </div><!--hero-main__content-->
+
+
+        </div><!--hero-main__content-->
+
+    </header> <!--hero-main-->
+
+
+    <main id="main" class="bg-light"> <!--main-->
+
+        <div class="sobreNosContainer"> <!--sobreNosContainer-->
+
+            <section id="sobreNos" class="container"> <!--sobreNos-->
+
+                <div class="sobrenosText">
+
+                    <h2>Sobre Nós</h2>
+
+                    <p>Somos uma empresa local dedicada a oferecer as melhores<br></p>
+                    soluções para sua empresa crescer e prosperar.
+
+
+                    <button id="btnLeiaMais" class="btn-custom">
+                        Leia Mais
+                    </button>
+
+                </div>
+
+                <div class="sobrenosImg">
+                    <img src="assets/cidade.png" class="img-fluid" alt="cidade">
+
+                </div>
+
+            </section><!--sobreNos-->
+
+        </div><!--sobreNosContainer-->
+
+
+        <div class="containerNossosServicos"> <!--containerNossosServicos-->
+
+            <section id="nossosServicos"> <!--nossosServicos-->
+
+                <h3>Nossos Serviços</h3>
+
+                <div class="nossosServicos__content">
+
+
+                    <article>
+
+                        <img src="assets/mala-de-viagem.png" alt="mala de viagem">
+
+                        <h5>Consultoria</h5>
+
+                        <p>Soluções estratéticas para seu negócio</p>
+
+
+                    </article>
+
+                    <article>
+
+                        <img src="assets/marketing.png" alt="marketing">
+
+                        <h5>Marketing Digital</h5>
+
+                        <p>Campanhas online para alavancar sua marca</p>
+
+                    </article>
+
+
+                    <article>
+                        <img src="assets/configuracoes.png" alt="configurações">
+
+                        <h5>Suporte Técnico</h5>
+
+                        <p>Assistência técnica para sua empresa </p>
+
+                    </article>
+
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn-custom" id="btnVerTodosOsServicos">Ver todos os serviços</button>
+                </div>
+            </section><!--nossosServicos-->
+
+        </div><!--containerNossosServicos-->
+
+    </main> <!--main-->
+
+
+    <div class="containerFooter"> <!--containerFooter-->
+
+        <footer id="footer" class="container"> <!--footer-->
+
+            <div class="footer__localizacao"> <!--footer__localizacao-->
+
+                <h5>Nossa localização</h5>
+
+
+                <address class="address__items">
+                    <p><span class="address__bold"><i class="fas fa-map-marker-alt"></i> Endereço:</span>
+                        Rua Exemplo,123,Cidade-Estado
+                    </p>
+
+                    <p><span class="address__bold"> <i class="fas fa-phone"></i> Telefone:</span>
+                        (11) 1234-5678
+                    </p>
+
+
+                    <p><span class="address__bold"> <i class="fas fa-envelope"></i> Email:</span>
+                        contato@empresa.com
+                    </p>
+
+                </address>
+
+            </div><!--footer__localizacao-->
+
+            <div class="footer__mapa w-50"> <!--footer__mapa-->
+
+                <img src="assets/mapa.png" class="img-fluid" alt="mapa">
+
+            </div><!--footer__mapa-->
+
+        </footer><!--footer-->
+
+        <div class="footer__text"> <!--footer__text-->
+
+            <div>
+
+                <p>&copy; Empresa Local | Todos os direitos reservados</p>
+
+            </div>
+
+
+            <div class="footer__textIcones">
+
+                <a href="#"><i class="fab fa-facebook"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+
+        </div><!--footer__text-->
+
+
+
+    </div> <!--containerFooter-->
+
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
