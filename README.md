@@ -48,8 +48,7 @@ Durante o desenvolvimento deste projeto, foram trabalhados:
 
 ## Preview
 
-![Preview do projeto](https://via.placeholder.com/800x400?text=Preview+Empresa+Local)
-
+<img src="empresaLocal.png">
 ---
  Como executar o projeto
 
