@@ -48,7 +48,7 @@ Durante o desenvolvimento deste projeto, foram trabalhados:
 
 ## Preview
 
-<img src="empresaLocal.png">
+<img src="assets/empresaLocal.png">
 ---
  Como executar o projeto
 
